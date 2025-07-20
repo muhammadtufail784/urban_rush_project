@@ -37,10 +37,10 @@ const FourthSection = () => {
       {/* Store buttons */}
       <div className="flex space-x-4">
       <a href="#" className="">
-      <Image src="/apple.png" alt="Appstore" width={100} height={100} />
+      <Image src="/apple.svg" alt="Appstore" width={100} height={100} />
       </a>
       <a href="#" className="">
-      <Image src="/playstore.png" alt="Playstore" width={100} height={100} />
+      <Image src="/playstore.svg" alt="Playstore" width={100} height={100} />
       </a>
       </div>
     </div>

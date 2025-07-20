@@ -14,9 +14,15 @@ const FirstSection = () => {
   <section className=" py-16 px-4 md:px-20 text-center ">
     {/* <!-- Icons Row --> */}
     <div className="flex justify-center space-x-4 mb-6">
-      <Image src="/Group.png" alt="Group" width={48} height={24} className="bg-white rounded-lg shadow-md p-2" />
-      <Image src="/Group (1).png" alt="Group" width={48} height={24} className="bg-white rounded-lg shadow-md p-2" />
-      <Image src="/Group (2).png" alt="Group" width={48} height={24} className="bg-white rounded-lg shadow-md p-2" />
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-white border border-[#E4E7E5] rounded-lg shadow-md p-2'>
+      <Image src="/Group.svg" alt="Group" width={48} height={24} className="" />
+      </div>
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-white border border-[#E4E7E5] rounded-lg shadow-md p-2'>
+      <Image src="/Group (1).svg" alt="Group" width={48} height={24} className="" />  
+      </div>
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-white border border-[#E4E7E5] rounded-lg shadow-md p-2'>
+      <Image src="/Group (2).svg" alt="Group" width={48} height={24} className="" />
+      </div>
     </div>
   
     {/* <!-- Headline --> */}
@@ -32,7 +38,7 @@ const FirstSection = () => {
   
     {/* <!-- Phone Image --> */}
     <div className="flex justify-center mt-[] animate-float">
-      <Image src="/Mockup 1.png" alt="App Preview" width={250} height={569} className="w-[769px]  h-[569px]  drop-shadow-2xl" />
+      <Image src="/khangullkhan.svg" alt="App Preview" width={250} height={569} className="w-[769px]  h-[569px]  drop-shadow-2xl" />
     </div>
   </section>
   
