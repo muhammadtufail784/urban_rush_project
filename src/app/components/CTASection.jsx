@@ -5,7 +5,7 @@ import React from "react";
 const CTASection = () => {
   return (
     <section className="py-14 bg-[#F6F6F6]" >
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4"> 
         <div   style={{
     backgroundImage: "url('/bluegradient.png'), url('/greengradient.png')",
     backgroundPosition: 'left top, right top',
