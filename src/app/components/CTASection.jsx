@@ -25,10 +25,10 @@ const CTASection = () => {
 
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a href="#" className="inline-block">
-              <Image src="/apple.png" width={160} height={48} alt="Download on App Store" />
+              <Image src="/apple.svg" width={160} height={48} alt="Download on App Store" />
             </a>
             <a href="#" className="inline-block">
-              <Image src="/playstore.png" width={160} height={48} alt="Get it on Playstore" />
+              <Image src="/playstore.svg" width={160} height={48} alt="Get it on Playstore" />
             </a>
           </div>
         </div>

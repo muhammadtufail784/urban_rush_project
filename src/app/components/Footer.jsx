@@ -49,22 +49,22 @@ const Footer = () => {
       {/* bottom */}
       <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-6">
         <p className="text-gray-700 text-sm">Copyright © 2025 UrbanRush. All Rights Reserved.</p>
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center justify-center space-x-6">
           {/* Facebook */}
-          <a href="#" aria-label="facebook" className="group w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-black hover:text-white transition">
-            <Image src="/facebook.svg" alt="facebook" width={20} height={20} className="group-hover:invert w-6 h-6" />
+          <a href="#" aria-label="facebook" className="group w-12 h-12 rounded-full bg-gray-100  text-gray-700 hover:bg-black  hover:text-white transition">
+            <Image src="/facebook.svg" alt="facebook" width={20} height={20} className="group-hover:invert w-6 h-6 m-[10px]" />
           </a>
           {/* Instagram */}
-          <a href="#" aria-label="instagram" className="group w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-black hover:text-white transition">
-            <Image src="/instagram.svg" alt="instagram" width={24} height={24} className="group-hover:invert" />
+          <a href="#" aria-label="instagram" className="group w-12 h-12 rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
+            <Image src="/instagram.svg" alt="instagram" width={24} height={24} className="group-hover:invert m-[10px]" />
           </a>
           {/* Twitter/X */}
-          <a href="#" aria-label="twitter" className="group w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-black hover:text-white transition">
-            <Image src="/x.svg" alt="twitter" width={24} height={24} className="group-hover:invert" />
+          <a href="#" aria-label="twitter" className="group w-12 h-12 rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
+            <Image src="/x.svg" alt="twitter" width={24} height={24} className="group-hover:invert m-[10px]" />
           </a>
           {/* LinkedIn */}
-          <a href="#" aria-label="linkedin" className="group w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-black hover:text-white transition">
-            <Image src="/linkedin.svg" alt="linkedin" width={24} height={24} className="group-hover:invert" />
+          <a href="#" aria-label="linkedin" className="group w-12 h-12 rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
+            <Image src="/linkedin.svg" alt="linkedin" width={24} height={24} className="group-hover:invert m-[10px]" />
           </a>
         </div>
       </div>

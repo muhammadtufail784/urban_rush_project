@@ -18,8 +18,12 @@ const FirstSection = () => {
           <div className="flex items-center lg:order-2">
             {/* App badges on large screens */}
             <div className="hidden lg:flex space-x-2 mr-4">
-              <Image src="/apple.png" alt="apple" width={120} height={40} />
-              <Image src="/playstore.png" alt="google" width={120} height={40} />
+              <a href="#">
+              <Image src="/apple.svg" alt="apple" width={120} height={40} />
+              </a>
+              <a href="#">
+              <Image src="/playstore.svg" alt="google" width={120} height={40} />
+              </a>
             </div>
 
             {/* Burger */}
