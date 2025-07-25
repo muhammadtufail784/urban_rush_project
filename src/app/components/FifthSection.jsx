@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const FifthSection = () => {
   return (
-    <section className="py-[42px] bg-[#F6F6F6]">
-  <div className="max-w-7xl mx-auto bg-white rounded-3xl flex flex-col md:flex-row py-[69px] items-center gap-12">
+    <section className="py-[42px] bg-[#F6F6F6] z-10">
+  <div className="max-w-7xl mx-auto bg-white z-20 rounded-3xl flex flex-col md:flex-row py-[69px] items-center gap-12">
     {/* Left content */}
 
     <div className="flex-1 relative w-full max-w-md pr-[52px]">
-          <Image src="/greenbg.png" alt="Courier" width={400} height={500} className="absolute  z-10 rotate-12 " />
+          {/* <Image src="/greenbg.png" alt="Courier" width={400} height={500} className="absolute  z-30 rotate-12 " /> */}
       <Image src="/Hatchback_Car_Mockup.png" alt="Courier" width={400} height={500} className=" z-50 w-full h-auto object-contain" />
     </div>
    

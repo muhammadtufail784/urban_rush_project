@@ -14,13 +14,13 @@ const FirstSection = () => {
   <section className=" py-16 px-4 md:px-20 text-center ">
     {/* <!-- Icons Row --> */}
     <div className="flex justify-center space-x-4 mb-6">
-      <div className='flex items-center justify-center w-[80px] h-[80px] bg-white border border-[#E4E7E5] rounded-lg shadow-md p-2'>
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F3FBF6] border border-[#EBEDED] rounded-lg p-2'>
       <Image src="/Group.svg" alt="Group" width={48} height={24} className="" />
       </div>
-      <div className='flex items-center justify-center w-[80px] h-[80px] bg-white border border-[#E4E7E5] rounded-lg shadow-md p-2'>
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F3FBF6] border border-[#EBEDED] rounded-lg p-2'>
       <Image src="/Group (1).svg" alt="Group" width={48} height={24} className="" />  
       </div>
-      <div className='flex items-center justify-center w-[80px] h-[80px] bg-white border border-[#E4E7E5] rounded-lg shadow-md p-2'>
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F3FBF6] border border-[#EBEDED] rounded-lg p-2'>
       <Image src="/Group (2).svg" alt="Group" width={48} height={24} className="" />
       </div>
     </div>

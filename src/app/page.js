@@ -13,9 +13,9 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <>  
-    <div className="sticky top-0 z-50">
+    {/* <div className="sticky top-0 z-50">
     <Navbar />
-    </div>
+    </div> */}
 <FirstSection />
 
 
@@ -45,7 +45,7 @@ export default function Home() {
 <CTASection />
 
 
-<Footer />
+{/* <Footer /> */}
 
 </>
 
