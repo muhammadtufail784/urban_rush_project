@@ -1,4 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -23,7 +25,13 @@ export default function RootLayout({ children }) {
       cz-shortcut-listen="true"
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
+        <div className="sticky top-0 z-50">
+        <Navbar />
+        </div>
         {children}
+        {/* <div className="sticky bottom-0 z-50"> */}
+        <Footer />
+        {/* </div> */}
       </body>
     </html>
   );

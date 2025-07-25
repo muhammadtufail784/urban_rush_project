@@ -47,7 +47,7 @@ const FourthSection = () => {
 
     {/* Right image */}
     <div className="flex-1 order-1 md:order-2 relative w-full max-w-md pr-[52px]">
-          <Image src="/greenbg.png" alt="Courier" width={400} height={500} className="absolute  z-10    rotate-12 " />
+          {/* <Image src="/greenbg.png" alt="Courier" width={400} height={500} className="absolute  z-10    rotate-12 " /> */}
       <Image src="/man.png" alt="Courier" width={400} height={500} className=" z-50 w-full h-auto object-contain" />
     </div>
   </div>

@@ -11,7 +11,7 @@ const FaqItem = ({ question, answer }) => {
         onClick={() => setOpen(!open)}
         className="w-full flex justify-between items-center p-[24px] text-left"
       >
-        <span className="font-medium text-lg text-gray-900">{question}</span>
+        <span className="font-medium text-lg text-gray-900 cursor-pointer border-red-500" >{question}</span>
         <p className="w-[42px] h-[42px] rounded-full bg-[#FAFAFA] flex items-center justify-center">
 
         <span className="flex items-center justify-center w-[32px] h-[32px] rounded-full bg-[#EBEBEB]">

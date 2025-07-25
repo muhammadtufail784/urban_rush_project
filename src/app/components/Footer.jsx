@@ -51,21 +51,37 @@ const Footer = () => {
         <p className="text-gray-700 text-sm">Copyright © 2025 UrbanRush. All Rights Reserved.</p>
         <div className="flex items-center justify-center space-x-6">
           {/* Facebook */}
-          <a href="#" aria-label="facebook" className="group w-12 h-12 rounded-full bg-gray-100  text-gray-700 hover:bg-black  hover:text-white transition">
-            <Image src="/facebook.svg" alt="facebook" width={20} height={20} className="group-hover:invert w-6 h-6 m-[10px]" />
+          <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black  hover:text-white transition">
+
+          <a href="#" aria-label="facebook" className="">
+            <Image src="/facebook.svg" alt="facebook" width={20} height={20} className="group-hover:hidden block w-6 h-6 m-[10px]" />
+            <Image src="/facebook_white.svg" alt="facebook" width={20} height={20} className="group-hover:block hidden w-6 h-6 m-[10px]" />
           </a>
+          </div>
           {/* Instagram */}
-          <a href="#" aria-label="instagram" className="group w-12 h-12 rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
-            <Image src="/instagram.svg" alt="instagram" width={24} height={24} className="group-hover:invert m-[10px]" />
+          <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
+
+          <a href="#" aria-label="instagram" className="">
+            <Image src="/instagram.svg" alt="instagram" width={24} height={24} className="group-hover:hidden block m-[10px]" />
+            <Image src="/instagram_white.svg" alt="instagram" width={24} height={24} className="group-hover:block hidden m-[10px]" />
           </a>
+          </div>
           {/* Twitter/X */}
-          <a href="#" aria-label="twitter" className="group w-12 h-12 rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
-            <Image src="/x.svg" alt="twitter" width={24} height={24} className="group-hover:invert m-[10px]" />
+          <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
+
+          <a href="#" aria-label="twitter" className="">
+            <Image src="/x.svg" alt="twitter" width={24} height={24} className="group-hover:hidden block m-[10px]" />
+            <Image src="/x_white.svg" alt="twitter" width={24} height={24} className="group-hover:block hidden m-[10px]" />
           </a>
+          </div>
           {/* LinkedIn */}
-          <a href="#" aria-label="linkedin" className="group w-12 h-12 rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
-            <Image src="/linkedin.svg" alt="linkedin" width={24} height={24} className="group-hover:invert m-[10px]" />
+              <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
+
+          <a href="#" aria-label="linkedin" className="">
+            <Image src="/linkedin.svg" alt="linkedin" width={24} height={24} className="group-hover:hidden block m-[10px]" />
+            <Image src="/linkedin_white.svg" alt="linkedin" width={24} height={24} className="group-hover:block hidden m-[10px]" />
           </a>
+          </div>
         </div>
       </div>
     </footer>
