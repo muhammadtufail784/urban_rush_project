@@ -4,7 +4,7 @@ import Image from 'next/image'
 const FourthSection = () => {
   return (
     <section className="py-[42px] bg-[#F6F6F6]">
-  <div className="max-w-7xl mx-auto bg-white rounded-3xl flex flex-col md:flex-row items-center gap-12">
+  <div className="max-w-6xl mx-auto bg-white rounded-3xl flex flex-col md:flex-row items-center gap-12">
     {/* Left content */}
     <div className="flex-1 order-2 md:order-1 w-full md:pl-[129px] p-[20px] md:p-0">
       <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Send with UrbanRush</h2>
@@ -37,10 +37,10 @@ const FourthSection = () => {
       {/* Store buttons */}
       <div className="flex space-x-4">
       <a href="#" className="">
-      <Image src="/apple.svg" alt="Appstore" width={100} height={100} />
+      <Image src="/apple.svg" alt="Appstore" width={177} height={56} className='h-[56px]' />
       </a>
       <a href="#" className="">
-      <Image src="/playstore.svg" alt="Playstore" width={100} height={100} />
+      <Image src="/playstore.svg" alt="Playstore" width={177} height={56} className='h-[56px]' />
       </a>
       </div>
     </div>
