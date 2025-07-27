@@ -82,10 +82,25 @@ html {
   bottom: -2px;
   width: 0%;
   height: 2px;
-  background-color: #7e22ce; /* Tailwind purple-700 */
+  background-color: #22cbce; /* Tailwind purple-700 */
   transition: width 0.3s ease;
+}
+
+.nav-underline.active {
+  color: transparent;
+  background-image: linear-gradient(90deg, #A1E4C8 0%, #9ED5EC 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .nav-underline.active::after {
   width: 100%;
+  background-image: linear-gradient(90deg, #A1E4C8 0%, #9ED5EC 100%);
+}
+
+.nav-underline:not(.active):hover {
+  color: transparent;
+  background-image: linear-gradient(90deg, #A1E4C8 0%, #9ED5EC 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
