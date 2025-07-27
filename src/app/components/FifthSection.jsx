@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const FifthSection = () => {
   return (
-    <section className="py-[42px] bg-[#F6F6F6] z-10">
-  <div className="max-w-7xl mx-auto bg-white z-20 rounded-3xl flex flex-col md:flex-row py-[69px] items-center gap-12">
+    <section id="join" className="py-[42px] bg-[#F6F6F6] z-10">
+  <div className="max-w-6xl mx-auto bg-white z-20 rounded-3xl flex flex-col md:flex-row py-[69px] items-center gap-12">
     {/* Left content */}
 
     <div className="flex-1 relative w-full max-w-md pr-[52px]">
@@ -48,7 +48,7 @@ const FifthSection = () => {
 
       {/* Store buttons */}
       <div className="flex space-x-4">
-        <a href="#" className="bg-black text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:opacity-90">
+        <a href="#" className="bg-black text-white px-[22px] py-[16px] h-[56px] rounded-lg  space-x-2 hover:opacity-90">
         Join as a Driver
         </a>
       </div>

@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <>
-    <footer className="bg-white pt-20 pb-10 border-t border-gray-200">
+    <footer id="contact" className="bg-white pt-20 pb-10 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* Logo & tagline */}
         <div>
@@ -31,6 +31,8 @@ const Footer = () => {
             Join as a Driver
           </a>
         </div>
+
+
 
         {/* Contact */}
         <div className="space-y-4">

@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 const SecondSection = () => {
   return (
-    <div className="py-24 bg-white">
+    <div id="why" className="md:pt-24  bg-[#F6F6F6]">
   <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Why urbanRUSH?</h2>
   <div className="flex flex-wrap justify-center gap-8 items-center">
     {/* Left column */}
-    <div className="space-y-8">
+    <div className="space-y-8 md:order-1 order-1">
 
 <Horizentalcard
   imgSrc="/truck-tick.svg"
@@ -38,12 +38,12 @@ const SecondSection = () => {
     </div>
 
     {/* Center phone */}
-    <div className="flex justify-center">
+    <div className="flex justify-center md:order-2 order-3">
       <Image src="/iPhoneMockup.png" alt="Phone mockup" width={300} height={684} className="" />
     </div>
 
     {/* Right column */}
-    <div className="space-y-8">
+    <div className="space-y-8 md:order-3 order-2">
       {/* Instant Matching */}
       <div className="md:ml-[32px] !ml-[10px]">
 

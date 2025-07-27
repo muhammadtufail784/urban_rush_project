@@ -1,9 +1,49 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 
 const FirstSection = () => {
     const [open, setOpen] = useState(false);
+    // Track which section is currently active for underline animation
+    const [active, setActive] = useState('#home');
+
+  // Update active nav item on scroll using IntersectionObserver
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '-50% 0px -50% 0px', // trigger when section crosses middle of viewport
+      threshold: 0,
+    };
+
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const sectionId = `#${entry.target.id}`;
+          setActive(sectionId);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    // Observe all sections referenced in navItems
+    navItems.forEach(({ href }) => {
+      const section = document.querySelector(href);
+      if (section) observer.observe(section);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+  // Navigation items with section anchors
+  const navItems = [
+    { label: 'Home', href: '#home' },
+    { label: 'Why urbanRUSH?', href: '#why' },
+    { label: 'How It Works?', href: '#how' },
+    { label: 'Join as a Driver', href: '#join' },
+    { label: 'Contact us', href: '#contact' },
+  ];
   return (
     <div   className="   bg-no-repeat"
 >
@@ -40,8 +80,19 @@ const FirstSection = () => {
           {/* Links */}
           <div className={`${open? 'block':'hidden'} items-center justify-between w-full lg:flex lg:w-auto lg:order-1`} id="mobile-menu">
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-              {['Home','Why urbanRUSH?','How It Works?','Join as a Driver','Contact us'].map((item,i)=>(
-                <li key={i}><a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0" onClick={()=>setOpen(false)}>{item}</a></li>
+              {navItems.map(({ label, href }, i) => (
+                <li key={i}>
+                  <a
+                    href={href}
+                    className={`nav-underline block py-2 pl-3 pr-4 rounded lg:border-0 lg:p-0 transition-colors duration-300 ${active===href ? 'active text-purple-700' : 'text-gray-700 hover:text-purple-700'}`}
+                    onClick={() => {
+                      setOpen(false);
+                      setActive(href);
+                    }}
+                  >
+                    {label}
+                  </a>
+                </li>
               ))}
             </ul>
           </div>

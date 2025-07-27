@@ -5,22 +5,22 @@ import Image from 'next/image'
 const FirstSection = () => {
     const [open, setOpen] = useState(false);
   return (
-    <div   className=" bg-white  bg-no-repeat -mt-[100px] pt-[100px] animate-slide-up"
+    <div   id="home" className=" bg-[#F6F6F6]  bg-no-repeat -mt-[100px] pt-[100px] animate-slide-up"
     style={{
       backgroundImage: "url('/bluegradient.png'), url('/greengradient.png')",
       backgroundPosition: 'left top, right top',
     }}>
         
-  <section className=" py-16 px-4 md:px-20 text-center ">
+  <section className=" md:py-16  px-4 md:px-20 text-center ">
     {/* <!-- Icons Row --> */}
     <div className="flex justify-center space-x-4 mb-6">
-      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F3FBF6] border border-[#EBEDED] rounded-lg p-2'>
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F2FBF4] border border-[#EBEDED] rounded-lg p-2'>
       <Image src="/Group.svg" alt="Group" width={48} height={24} className="" />
       </div>
-      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F3FBF6] border border-[#EBEDED] rounded-lg p-2'>
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F2FBF4] border border-[#EBEDED] rounded-lg p-2'>
       <Image src="/Group (1).svg" alt="Group" width={48} height={24} className="" />  
       </div>
-      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F3FBF6] border border-[#EBEDED] rounded-lg p-2'>
+      <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F2FBF4] border border-[#EBEDED] rounded-lg p-2'>
       <Image src="/Group (2).svg" alt="Group" width={48} height={24} className="" />
       </div>
     </div>
@@ -38,7 +38,7 @@ const FirstSection = () => {
   
     {/* <!-- Phone Image --> */}
     <div className="flex justify-center mt-[] animate-float">
-      <Image src="/khangullkhan.svg" alt="App Preview" width={250} height={569} className="w-[769px]  h-[569px]  drop-shadow-2xl" />
+      <Image src="/khangullkhan.svg" alt="App Preview" width={250} height={569} className="w-[769px]  md:h-[569px] h-[256px]  drop-shadow-2xl" />
     </div>
   </section>
   
