@@ -84,7 +84,7 @@ const FirstSection = () => {
                 <li key={i}>
                   <a
                     href={href}
-                    className={`nav-underline block py-2 pl-3 pr-4 rounded lg:border-0 lg:p-0 transition-colors duration-300 ${active===href ? 'active text-purple-700' : 'text-gray-700 hover:text-purple-700'}`}
+                    className={`nav-underline block py-2 pl-3 pr-4 rounded lg:border-0 lg:p-0 transition-colors duration-300 ${active===href ? 'active' : 'text-gray-700'}`}
                     onClick={() => {
                       setOpen(false);
                       setActive(href);
