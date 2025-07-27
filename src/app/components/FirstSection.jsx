@@ -11,7 +11,7 @@ const FirstSection = () => {
       backgroundPosition: 'left top, right top',
     }}>
         
-  <section className=" md:py-16  px-4 md:px-20 text-center ">
+  <section className="py-24  px-4 md:px-20 text-center ">
     {/* <!-- Icons Row --> */}
     <div className="flex justify-center space-x-4 mb-6">
       <div className='flex items-center justify-center w-[80px] h-[80px] bg-[#F2FBF4] border border-[#EBEDED] rounded-lg p-2'>
@@ -26,18 +26,18 @@ const FirstSection = () => {
     </div>
   
     {/* <!-- Headline --> */}
-    <h2 className="animate-slide-u md:text-[79px] text-[40px] md:leading-[102px] leading-[40px] tracking-[0.5%] font-[800] font-rethink font-extrabold md:text-5xl font-bold mb-4 text-gray-900">
+    <h2 className="animate-slide-u md:text-[79px] text-[36px] md:leading-[102px] leading-[40px] tracking-[0.5%] font-[800] font-rethink font-extrabold md:text-5xl font-bold mb-4 text-gray-900">
       Anything You Need, <br />
       Delivered Fast ⚡🚚
     </h2>
   
     {/* <!-- Subtext --> */}
-    <p className="animate-slide-u text-gray-600 text-lg max-w-2xl mx-auto mb-10" style={{animationDelay: '0.2s'}}>
+    <p className="animate-slide-u text-gray-600 md:text-[20px] text-[18px] font-medium  max-w-2xl mx-auto mb-10" style={{animationDelay: '0.2s'}}>
       Instant pickup and delivery of hardware, construction materials, rubble, even bathtubs—right from your favorite store to your door.
     </p>
   
     {/* <!-- Phone Image --> */}
-    <div className="flex justify-center mt-[] animate-float">
+    <div className="flex justify-center  animate-float">
       <Image src="/khangullkhan.svg" alt="App Preview" width={250} height={569} className="w-[769px]  md:h-[569px] h-[256px]  drop-shadow-2xl" />
     </div>
   </section>
