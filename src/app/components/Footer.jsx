@@ -55,7 +55,7 @@ const Footer = () => {
           {/* Facebook */}
           <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black  hover:text-white transition">
 
-          <a href="#" aria-label="facebook" className="">
+          <a href="https://www.facebook.com/profile.php?id=61577185750856" target="_blank" aria-label="facebook" className="">
             <Image src="/facebook.svg" alt="facebook" width={20} height={20} className="group-hover:hidden block w-6 h-6 m-[10px]" />
             <Image src="/facebook_white.svg" alt="facebook" width={20} height={20} className="group-hover:block hidden w-6 h-6 m-[10px]" />
           </a>
@@ -63,7 +63,7 @@ const Footer = () => {
           {/* Instagram */}
           <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
 
-          <a href="#" aria-label="instagram" className="">
+          <a href="https://www.instagram.com/urbanrush01/?hl=en" target="_blank" aria-label="instagram" className="">
             <Image src="/instagram.svg" alt="instagram" width={24} height={24} className="group-hover:hidden block m-[10px]" />
             <Image src="/instagram_white.svg" alt="instagram" width={24} height={24} className="group-hover:block hidden m-[10px]" />
           </a>
@@ -71,7 +71,7 @@ const Footer = () => {
           {/* Twitter/X */}
           <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
 
-          <a href="#" aria-label="twitter" className="">
+          <a href="https://x.com/urbanrush01" target="_blank" aria-label="twitter" className="">
             <Image src="/x.svg" alt="twitter" width={24} height={24} className="group-hover:hidden block m-[10px]" />
             <Image src="/x_white.svg" alt="twitter" width={24} height={24} className="group-hover:block hidden m-[10px]" />
           </a>
@@ -79,7 +79,7 @@ const Footer = () => {
           {/* LinkedIn */}
               <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black hover:text-white transition">
 
-          <a href="#" aria-label="linkedin" className="">
+          <a href="https://www.linkedin.com/company/urbanrush01/" target="_blank" aria-label="linkedin" className="">
             <Image src="/linkedin.svg" alt="linkedin" width={24} height={24} className="group-hover:hidden block m-[10px]" />
             <Image src="/linkedin_white.svg" alt="linkedin" width={24} height={24} className="group-hover:block hidden m-[10px]" />
           </a>

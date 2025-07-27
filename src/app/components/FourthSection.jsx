@@ -4,7 +4,7 @@ import Image from 'next/image'
 const FourthSection = () => {
   return (
     <section className="py-[42px] bg-[#F6F6F6]">
-  <div className="max-w-6xl mx-auto bg-white rounded-3xl flex flex-col md:flex-row items-center gap-12">
+  <div className="max-w-6xl md:py-[42px] mx-auto bg-white rounded-3xl flex flex-col md:flex-row items-center gap-12">
     {/* Left content */}
     <div className="flex-1 order-2 md:order-1 w-full md:pl-[129px] p-[20px] md:p-0">
       <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Send with UrbanRush</h2>
