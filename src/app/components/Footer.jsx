@@ -39,11 +39,11 @@ const Footer = () => {
           <h3 className="text-lg font-medium text-gray-900">Contact Us</h3>
           <p className="flex items-center space-x-2 text-gray-700">
            <Image src="/sms.svg" alt="mail" width={24} height={24} />
-            <span>abc@gmail.com</span>
+            <a href="mailto:sales@urbanrush.co.za">sales@urbanrush.co.za</a>
           </p>
           <p className="flex items-center space-x-2 text-gray-700">
             <Image src="/call-incoming.svg" alt="phone" width={24} height={24} />
-            <span>+787655754</span>
+            <a href="tel:+27128243647">+27 12 824 3647</a>
           </p>
         </div>
       </div>
