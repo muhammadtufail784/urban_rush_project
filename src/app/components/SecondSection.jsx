@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const SecondSection = () => {
   return (
-    <div id="why" className="md:pt-24  bg-[#F6F6F6]">
+    <div id="why" className="md:pt-24  pt-[31px]  px-[16px]  bg-[#F6F6F6]">
   <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Why urbanRUSH?</h2>
   <div className="flex flex-wrap justify-center gap-8 items-center">
     {/* Left column */}
@@ -22,7 +22,7 @@ const SecondSection = () => {
 
 
       {/* Real-Time Tracking */}
-      <div className="md:!ml-[32px] !ml-[10px] ">
+      <div className="md:!ml-[32px]  ">
       <Horizentalcard
   imgSrc="/smart-car.svg"
   title="Real-Time Tracking"
@@ -45,7 +45,7 @@ const SecondSection = () => {
     {/* Right column */}
     <div className="space-y-8 md:order-3 order-2">
       {/* Instant Matching */}
-      <div className="md:ml-[32px] !ml-[10px]">
+      <div className="md:ml-[32px] ">
 
       <Horizentalcard 
     imgSrc="/halmat.svg"

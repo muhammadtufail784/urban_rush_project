@@ -5,7 +5,7 @@ import Image from 'next/image'
 const FirstSection = () => {
     const [open, setOpen] = useState(false);
   return (
-    <div   id="home" className=" bg-[#F6F6F6]  bg-no-repeat -mt-[100px] pt-[100px] animate-slide-up"
+    <div   id="home" className=" bg-[#F6F6F6] pb-[31px]  bg-no-repeat -mt-[100px] pt-[100px] animate-slide-up"
     style={{
       backgroundImage: "url('/bluegradient.png'), url('/greengradient.png')",
       backgroundPosition: 'left top, right top',
@@ -26,7 +26,7 @@ const FirstSection = () => {
     </div>
   
     {/* <!-- Headline --> */}
-    <h2 className="animate-slide-u md:text-[79px] text-[40px] md:leading-[102px] leading-[40px] tracking-[0.5%] font-[800] font-rethink font-extrabold md:text-5xl font-bold mb-4 text-gray-900">
+    <h2 className="animate-slide-u md:text-[79px] text-[36px]  md:leading-[102px] leading-[40px] tracking-[0.5%] md:font-[800] font-rethink   font-bold mb-4 text-gray-900">
       Anything You Need, <br />
       Delivered Fast ⚡🚚
     </h2>

@@ -41,7 +41,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="py-24 bg-[#F6F6F6]">
+    <section className="md:py-24 py-[25px] bg-[#F6F6F6]">
       <div className="max-w-4xl mx-auto px-4 text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Frequently Asked Questions</h2>
         <p className="text-lg text-gray-700">

@@ -3,7 +3,7 @@ import StepCard from './StepCard'
 
 const ThirdSeciton = () => {
   return (
-    <section id="how" className="py-24 bg-gradient-to-br from-[#EAF7FE] via-white to-[#E9FAEB] bg-no-repeat"
+    <section id="how" className="md:py-24 py-[25px] bg-gradient-to-br from-[#EAF7FE] via-white to-[#E9FAEB] bg-no-repeat"
  style={{
   backgroundImage: "url('/bluegradient.png'), url('/greengradient.png')",
   backgroundPosition: 'left top, right top',
