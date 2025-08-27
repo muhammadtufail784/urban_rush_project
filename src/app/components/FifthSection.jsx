@@ -3,13 +3,15 @@ import Image from 'next/image'
 
 const FifthSection = () => {
   return (
-    <section id="join" className="py-[42px] bg-[#F6F6F6] z-10">
+    <section id="join" className="pb-[42px] pt-[22px] bg-[#F6F6F6] z-10 md:px-0 px-4">
   <div className="max-w-6xl mx-auto bg-white z-20 rounded-3xl flex flex-col md:flex-row py-[69px] items-center gap-12">
     {/* Left content */}
 
     <div className="flex-1 relative w-full max-w-md pr-[52px]">
           {/* <Image src="/greenbg.png" alt="Courier" width={400} height={500} className="absolute  z-30 rotate-12 " /> */}
-      <Image src="/Hatchback_Car_Mockup.png" alt="Courier" width={400} height={500} className=" z-50 w-full h-auto object-contain" />
+      <Image src="/Hatchback_Car_Mockup.png" alt="Courier" width={400} height={500} className=" z-50  w-full h-auto object-contain hidden md:block" />
+      <Image src="/Hatchback_Car_Mockup_Sm.png" alt="Courier" width={400} height={500} className=" z-50 w-full h-auto object-contain block md:hidden" />
+
     </div>
    
 

@@ -26,7 +26,7 @@ const HorizontalCard = ({
   return (
     <div
       style={{ background: `linear-gradient(90deg, ${gradientFrom}, ${gradientTo})` }}
-      className="border border-[#E7E9E7] rounded-2xl md:w-[360px] w-[300px] shadow-md p-[24px] flex items-start space-x-4"
+      className="border border-[#E7E9E7] rounded-2xl md:w-[360px] w-full shadow-md p-[24px] flex items-start space-x-4"
     >
       {/* Icon */}
       <div
