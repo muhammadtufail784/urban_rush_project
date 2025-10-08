@@ -10,6 +10,7 @@ import ThirdSeciton from "./components/ThirdSeciton";
 import FourthSection from "./components/FourthSection";
 import FifthSection from "./components/FifthSection";
 import Navbar from "./components/Navbar";
+import { DialogDemo } from "../components/DialogDemo";
 export default function Home() {
   return (
     <>  
@@ -44,6 +45,8 @@ export default function Home() {
 <FAQSection />
 <CTASection />
 
+{/* Dialog Demo */}
+<DialogDemo />
 
 {/* <Footer /> */}
 

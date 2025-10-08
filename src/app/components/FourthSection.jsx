@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { DialogDemo } from '@/components/DialogDemo'
 
 const FourthSection = () => {
   return (
@@ -16,18 +17,21 @@ const FourthSection = () => {
       <ul className="space-y-4 mb-10">
         {[
           {
+            icon: "/tick-circle.svg",
             text: "Instantly matched with nearby drivers.",
           },
           {
+            icon: "/routing.svg",
             text: "Track your delivery in real time, live.",
           },
           {
+            icon: "/wallet.svg",
             text: "Pay only for what you move — no hidden fees.",
           },
         ].map((item, idx) => (
           <li key={idx} className="flex items-start space-x-4">
             <span className="flex-shrink-0 w-9 h-9 rounded-full bg-[#05A3E4] flex items-center  justify-center">
-              <Image src="/shield-tick.svg" alt="check" width={20} height={20} />
+              <Image src={item.icon} alt="check" width={20} height={20} />
             </span>
             <p className="text-base text-gray-800 mt-[5px] ">{item.text}</p>
           </li>
@@ -39,9 +43,11 @@ const FourthSection = () => {
       <a href="#" className="">
       <Image src="/apple.svg" alt="Appstore" width={177} height={56} className='h-[56px]' />
       </a>
-      <a href="#" className="">
+      <DialogDemo> 
+      <a  className="">
       <Image src="/playstore.svg" alt="Playstore" width={177} height={56} className='h-[56px]' />
       </a>
+      </DialogDemo>
       </div>
     </div>
 

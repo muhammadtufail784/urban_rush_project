@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { DialogDemo } from '@/components/DialogDemo'
 
 const CTASection = () => {
   return (
@@ -27,9 +28,11 @@ const CTASection = () => {
             <a href="#" className="inline-block">
               <Image src="/apple.svg" width={160} height={48} alt="Download on App Store" />
             </a>
-            <a href="#" className="inline-block">
+            <DialogDemo> 
+            <a  className="inline-block">
               <Image src="/playstore.svg" width={160} height={48} alt="Get it on Playstore" />
             </a>
+            </DialogDemo>
           </div>
         </div>
       </div>
