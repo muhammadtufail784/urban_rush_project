@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
+import { DialogDemo } from '@/components/DialogDemo'
 
 const FirstSection = () => {
     const [open, setOpen] = useState(false);
@@ -61,9 +62,10 @@ const FirstSection = () => {
               <a href="#">
               <Image src="/apple.svg" alt="apple" width={120} height={40} />
               </a>
-              <a href="#">
+              <DialogDemo>  <a >
               <Image src="/playstore.svg" alt="google" width={120} height={40} />
-              </a>
+              </a> </DialogDemo>
+             
             </div>
 
             {/* Burger */}
