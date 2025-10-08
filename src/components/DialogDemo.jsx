@@ -28,7 +28,7 @@ export function DialogDemo({children}) {
               Choose your role and start your journey with urbanRush
             </DialogDescription>
           </DialogHeader>
-            <div className="bg-white  rounded-2xl md:px-6 p-2 shadow-lg flex flex-wrap justify-between items-center gap-6">
+            <div className="bg-white  rounded-2xl md:px- p-2 shadow-lg flex flex-wrap justify-between items-center gap-6">
               <div className=" flex justify-end items-center md:block hidden">
                 <Image 
                   src="/manandphone.png" 
@@ -38,7 +38,7 @@ export function DialogDemo({children}) {
                   className="  rounded-xl"
                 />
               </div>
-              <div className="md:flex-0  flex-1 text-center md:text-right">
+              <div className="flex-1 text-center md:text-start justify-end">
                 <h3 className="text-2xl font-bold text-black mb-2">Download as Customer</h3>
                 <p className="text-lg text-gray-700 mb-4">Start delivering your items.</p>
                 <a href="https://play.google.com/store/apps/details?id=com.scent.urban_rush_customer" className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
