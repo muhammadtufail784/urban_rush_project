@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="space-y-4">
           <h3 className="text-lg font-medium text-gray-900">Earn with UrbanRush</h3>
           <a
-            href="#"
+            href="https://play.google.com/store/apps/details?id=com.urban.urban_rush_driver&pli=1"
             className="inline-block bg-black text-white px-6 py-3 rounded-2xl hover:opacity-90"
           >
             Join as a Driver

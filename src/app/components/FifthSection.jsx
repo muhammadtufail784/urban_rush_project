@@ -50,7 +50,7 @@ const FifthSection = () => {
 
       {/* Store buttons */}
       <div className="flex space-x-4">
-        <a href="#" className="bg-black text-white px-[22px] py-[16px] h-[56px] rounded-lg  space-x-2 hover:opacity-90">
+        <a href="https://play.google.com/store/apps/details?id=com.urban.urban_rush_driver&pli=1" className="bg-black text-white px-[22px] py-[16px] h-[56px] rounded-lg  space-x-2 hover:opacity-90">
         Join as a Driver
         </a>
       </div>
