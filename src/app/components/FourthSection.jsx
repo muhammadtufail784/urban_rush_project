@@ -5,9 +5,9 @@ import { DialogDemo } from '@/components/DialogDemo'
 const FourthSection = () => {
   return (
     <section className="pt-[42px] pb-[22px] bg-[#F6F6F6] md:px-0 px-4">
-  <div className="max-w-6xl md:py-[42px] mx-auto bg-white rounded-3xl flex flex-col md:flex-row items-center gap-12">
+  <div className="max-w-6xl ] mx-auto bg-white rounded-3xl flex flex-col md:flex-row items-center gap-12">
     {/* Left content */}
-    <div className="flex-1 order-2 md:order-1 w-full md:pl-[129px] p-[20px] md:p-0">
+    <div className="flex-1 order-2 md:order-1 w-full md:pl-[129px]  p-[20px] md:p-0">
       <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Send with UrbanRush</h2>
       <p className="text-lg text-gray-700 mb-8 leading-relaxed">
         Deliver anything, anytime with trusted drivers <br /> across South Africa — fast, safe, and hassle-free.
@@ -52,7 +52,7 @@ const FourthSection = () => {
     </div>
 
     {/* Right image */}
-    <div className="flex-1 order-1 md:order-2 relative w-full max-w-md pr-[52px]">
+    <div className="flex-1 order-1 md:order-2  relative w-full max-w-md pr-[52px]">
           {/* <Image src="/greenbg.png" alt="Courier" width={400} height={500} className="absolute  z-10    rotate-12 " /> */}
       <Image src="/man.png" alt="Courier" width={400} height={500} className=" z-50 w-full h-auto object-contain" />
     </div>
