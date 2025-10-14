@@ -9,27 +9,23 @@ const faqs = [
   },
   {
     q: "How does UrbanRUSH work?",
-    a: "Simply enter your pickup and drop-off locations, select a vehicle type, and place your order. A nearby driver accepts and delivers your items while you track progress in real time.",
+    a: "Simply enter the pickup and drop-off locations, describe your item, and request a driver. We'll connect you with a nearby driver who will handle the delivery.",
   },
   {
     q: "How do I request a delivery?",
-    a: "Download the UrbanRUSH app from the App Store or Play Store, create an account, and tap 'New Delivery' to get started.",
+    a: "Open the UrbanRUSH app, select your pickup and drop-off locations, add item details, and tap \"Request Delivery.\"",
   },
   {
     q: "Can I schedule a delivery for later?",
-    a: "Yes. All deliveries are covered by UrbanRUSH’s transit insurance, so your items are protected during transit.",
+    a: "Currently, UrbanRUSH only offers instant deliveries. Scheduled deliveries will be added soon.",
   },
   {
-    q: "What if the driver can’t find the pickup location?",
-    a: "Yes. All deliveries are covered by UrbanRUSH’s transit insurance, so your items are protected during transit.",
+    q: "What if the driver can't find the pickup location?",
+    a: "The driver can contact you for guidance. Make sure you provide clear instructions in the notes section.",
   },
   {
-    q: "What if the driver can’t find the pickup location?",
-    a: "Yes. All deliveries are covered by UrbanRUSH’s transit insurance, so your items are protected during transit.",
-  },
-  {
-    q: "What if the driver can’t find the pickup location?",
-    a: "Yes. All deliveries are covered by UrbanRUSH’s transit insurance, so your items are protected during transit.",
+    q: "How can I join UrbanRUSH as a driver?",
+    a: "Joining UrbanRUSH is simple. Just upload your required documents — such as your ID and vehicle details — and complete your registration to get started.",
   },
 ];
 
