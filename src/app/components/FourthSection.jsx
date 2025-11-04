@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { DialogDemo } from '@/components/DialogDemo'
+import { DialogDemoApple } from '@/components/DialogDemoApple'
 
 const FourthSection = () => {
   return (
@@ -8,7 +9,7 @@ const FourthSection = () => {
   <div className="max-w-6xl ] mx-auto bg-white rounded-3xl flex flex-col md:flex-row items-center gap-12">
     {/* Left content */}
     <div className="flex-1 order-2 md:order-1 w-full md:pl-[129px]  p-[20px] md:p-0">
-      <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Send with UrbanRush</h2>
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Send with urbanRUSH</h2>
       <p className="text-lg text-gray-700 mb-8 leading-relaxed">
         Deliver anything, anytime with trusted drivers <br /> across South Africa — fast, safe, and hassle-free.
       </p>
@@ -40,9 +41,11 @@ const FourthSection = () => {
 
       {/* Store buttons */}
       <div className="flex space-x-4">
-      <a href="#" className="">
+      <DialogDemoApple>
+      <a className="">
       <Image src="/apple.svg" alt="Appstore" width={177} height={56} className='h-[56px]' />
       </a>
+      </DialogDemoApple>
       <DialogDemo> 
       <a  className="">
       <Image src="/playstore.svg" alt="Playstore" width={177} height={56} className='h-[56px]' />

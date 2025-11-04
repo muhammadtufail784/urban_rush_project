@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { DialogDemo } from '@/components/DialogDemo'
+import { DialogDemoApple } from '@/components/DialogDemoApple'
 
 const CTASection = () => {
   return (
@@ -18,16 +19,18 @@ const CTASection = () => {
           </span>
 
           <h2 className="text-4xl md:text-6xl font-extrabold leading-tight md:leading-[1.2] max-w-3xl mb-6">
-            Start Delivering with <br className="hidden md:block" /> UrbanRush
+            Start Delivering with <br className="hidden md:block" /> urbanRUSH
           </h2>
           <p className="text-lg text-gray-800 max-w-xl mb-10">
             Skip the stress — book a driver and get your items delivered without lifting a finger.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <a href="#" className="inline-block">
+          <DialogDemoApple>
+            <a className="inline-block">
               <Image src="/apple.svg" width={160} height={48} alt="Download on App Store" />
             </a>
+            </DialogDemoApple>
             <DialogDemo> 
             <a  className="inline-block">
               <Image src="/playstore.svg" width={160} height={48} alt="Get it on Playstore" />

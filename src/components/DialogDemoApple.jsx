@@ -14,7 +14,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { Link } from "lucide-react"
 
-export function DialogDemo({children}) {
+export function DialogDemoApple({children}) {
   return (
     <div className="flex items-center justify-center">
       <Dialog>
@@ -41,7 +41,7 @@ export function DialogDemo({children}) {
               <div className="flex-1 text-center md:px-6 p-2 md:text-start justify-end">
                 <h3 className="text-2xl font-bold text-black mb-2">Download as Customer</h3>
                 <p className="text-lg text-gray-700 mb-4">Start delivering your items.</p>
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.scent.urban_rush_customer" className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                <a target="_blank" href="https://apps.apple.com/app/urban-rush-customer/id6753934498" className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
                   Download Now
                 </a>
               </div>
@@ -61,7 +61,7 @@ export function DialogDemo({children}) {
               <div className="flex-1 md:p-6 p-2 text-center  md:pl-[43px] pl-[16px] md:pt-[20px] pt-[16px]  md:text-left">
                 <h3 className="text-2xl font-bold text-black mb-2">Download Driver App</h3>
                 <p className="text-lg text-gray-700 mb-4">Start earning with urbanRUSH.</p>
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.urban.urban_rush_driver&pli=1" className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                <a target="_blank" href="https://apps.apple.com/us/app/urban-rush-driver/id6753969384" className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
                   Download Now
                 </a>
               </div>

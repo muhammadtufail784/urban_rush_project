@@ -4,28 +4,28 @@ import FaqItem from "./FaqItem";
 
 const faqs = [
   {
-    q: "What is UrbanRUSH?",
-    a: "UrbanRUSH is a delivery service that lets you request a driver to pick up and deliver items from any store to your chosen destination.",
+    q: "What is urbanRUSH?",
+    a: "urbanRUSH is a delivery service that lets you request a driver to pick up and deliver items from any store to your chosen destination.",
   },
   {
-    q: "How does UrbanRUSH work?",
+    q: "How does urbanRUSH work?",
     a: "Simply enter the pickup and drop-off locations, describe your item, and request a driver. We'll connect you with a nearby driver who will handle the delivery.",
   },
   {
     q: "How do I request a delivery?",
-    a: "Open the UrbanRUSH app, select your pickup and drop-off locations, add item details, and tap \"Request Delivery.\"",
+    a: "Open the urbanRUSH app, select your pickup and drop-off locations, add item details, and tap \"Request Delivery.\"",
   },
   {
     q: "Can I schedule a delivery for later?",
-    a: "Currently, UrbanRUSH only offers instant deliveries. Scheduled deliveries will be added soon.",
+    a: "Currently, urbanRUSH only offers instant deliveries. Scheduled deliveries will be added soon.",
   },
   {
     q: "What if the driver can't find the pickup location?",
     a: "The driver can contact you for guidance. Make sure you provide clear instructions in the notes section.",
   },
   {
-    q: "How can I join UrbanRUSH as a driver?",
-    a: "Joining UrbanRUSH is simple. Just upload your required documents — such as your ID and vehicle details — and complete your registration to get started.",
+    q: "How can I join urbanRUSH as a driver?",
+    a: "Joining urbanRUSH is simple. Just upload your required documents — such as your ID and vehicle details — and complete your registration to get started.",
   },
 ];
 
