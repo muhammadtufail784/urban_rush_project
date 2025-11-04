@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { DialogDemo } from '@/components/DialogDemo'
+import { DialogDemoApple } from '@/components/DialogDemoApple'
 
 const FirstSection = () => {
     const [open, setOpen] = useState(false);
@@ -59,9 +60,12 @@ const FirstSection = () => {
           <div className="flex items-center lg:order-2">
             {/* App badges on large screens */}
             <div className="hidden lg:flex space-x-2 mr-4">
-              <a href="#">
+              <DialogDemoApple>
+<a>
               <Image src="/apple.svg" alt="apple" width={120} height={40} />
               </a>
+              </DialogDemoApple>
+              
               <DialogDemo>  <a >
               <Image src="/playstore.svg" alt="google" width={120} height={40} />
               </a> </DialogDemo>

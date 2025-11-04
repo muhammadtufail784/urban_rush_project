@@ -23,7 +23,7 @@ const Footer = () => {
 
         {/* Earn */}
         <div className="space-y-4">
-          <h3 className="text-lg font-medium text-gray-900">Earn with UrbanRush</h3>
+          <h3 className="text-lg font-medium text-gray-900">Earn with urbanRUSH</h3>
           <a
             href="https://play.google.com/store/apps/details?id=com.urban.urban_rush_driver&pli=1"
             className="inline-block bg-black text-white px-6 py-3 rounded-2xl hover:opacity-90"
@@ -50,7 +50,7 @@ const Footer = () => {
 
       {/* bottom */}
       <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-6">
-        <p className="text-gray-700 text-sm">Copyright © 2025 UrbanRush. All Rights Reserved.</p>
+        <p className="text-gray-700 text-sm">Copyright © 2025 urbanRUSH. All Rights Reserved.</p>
         <div className="flex items-center justify-center space-x-6">
           {/* Facebook */}
           <div className="flex items-center justify-center group w-[54px] h-[54px] rounded-full bg-gray-100  text-gray-700 hover:bg-black  hover:text-white transition">

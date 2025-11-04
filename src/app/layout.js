@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "urbanRush",
-  description: "urbanRush",
+  title: "urbanRUSH",
+  description: "urbanRUSH",
 };
 
 export default function RootLayout({ children }) {
